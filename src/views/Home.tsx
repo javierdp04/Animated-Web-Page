@@ -4,7 +4,7 @@ import logoImg from "../assets/logo.svg"
 const Home = () => {
     return (
         <>
-            <div id="background_0">      
+            <div className="background b0">      
                 <div id="content">
                     <div id="logo-container">
                         <img src= {logoImg} alt="Logo img"/>
@@ -20,7 +20,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div id="background_1">
+            <div className="background b1">
                 
             </div>
         </>

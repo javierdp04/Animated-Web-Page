@@ -1,5 +1,25 @@
-#container {
+body {
+    color: white;
+
+    margin: 0;
+}
+
+.background {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+

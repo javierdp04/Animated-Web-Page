@@ -2,9 +2,9 @@ import { Routes, Route } from "react-router-dom"
 import Home from "./views/Home"
 import LaCadena from "./views/LaCadena"
 import NavBar from "./components/navBar"
+import "./app.css"
 
 function App() {
-
 
   return (
     <div id="container">

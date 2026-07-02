@@ -4,7 +4,7 @@ import "./navBar.css"
 const NavBar = () => {
     return (
         <nav>
-            <div>
+            <div id="links-container">
                 <a href="#">Inicio</a>
                 <a href="#Nosotros">Nosotros</a>
                 <a href="#Promociones">Promociones</a>
