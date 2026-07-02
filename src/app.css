@@ -23,3 +23,12 @@ body {
     align-items: center;
 }
 
+h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    margin-top: 2vh;
+}
+
