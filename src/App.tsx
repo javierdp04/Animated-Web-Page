@@ -1,19 +1,20 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Home from "./views/Home"
 import LaCadena from "./views/LaCadena"
+import NavBar from "./components/navBar"
 
 function App() {
 
 
-
   return (
-    <BrowserRouter>
+    <div id="container">
+      <NavBar></NavBar>
       <Routes>
-        <Route path="/" element= { <Home />}></Route>
-        <Route path="/la-cadena" element= { <LaCadena />}></Route>
+        <Route path="/" element={ <Home /> }></Route>
+        <Route path="/la-cadena" element= { <LaCadena /> }></Route>
       </Routes>
-    </BrowserRouter>
+    </div>
   )
-}
+} 
 
-export default App
+export default App;
