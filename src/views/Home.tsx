@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import SplitText from "gsap/src/SplitText";
 import { ScrollTrigger } from "gsap/all";
+import puebloPeralta from "../assets/puebloPeralta.jpg"
 
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
 
@@ -61,7 +62,22 @@ const Home = () => {
                 </div>
             </div>
             <div className="background b1">
-                
+                <section id="Nosotros">
+                    <div id="left">
+                        <h2>¿Quienes somos?</h2>
+                        <img src= { puebloPeralta } alt="pueblo peralta"></img>
+                    </div>
+                    <div id="right">
+                        <p> Atalaya de peralta, S.L. Con su sede social en la calle Dabán, 12, de Peralta (Navarra) 
+                            es una empresa dedicada a la promoción de viviendas de toda clase, 
+                            tanto de tipo libre como de protección oficial                             
+                        </p><br></br>
+                        <p>
+                            El nombre de la sociedad se inspira en la Atalaya de la localidad de Peralta (Navarra), 
+                            una antigua construcción de carácter militar que domina la localidad y desde la que está tomada la imagen.
+                        </p><br></br>
+                    </div>
+                </section>
             </div>
         </>
     )
